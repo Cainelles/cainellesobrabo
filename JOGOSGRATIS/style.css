@@ -1,0 +1,38 @@
+body {
+  text-align: center;
+}
+
+.jogos {
+  display: flex;
+  justify-content: center;
+}
+
+.jogo {
+  display: inline-block;
+  margin: 20px;
+  text-align: center;
+}
+
+.jogo img {
+  width: 200px;
+  height: 200px;
+  border: 2px solid black;
+  border-radius: 10px;
+}
+
+.jogo h2 {
+  text-align: center;
+}
+
+button {
+  display: block;
+  margin: 10px auto;
+  background-color: #4CAF50;
+  border: none;
+  color: white;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 16px;
+  border-radius: 10px;
+}
